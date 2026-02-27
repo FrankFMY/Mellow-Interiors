@@ -53,7 +53,7 @@ export default function Contact() {
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
-            className="bg-white p-10 text-center"
+            className="bg-white p-6 sm:p-10 text-center"
           >
             <CheckCircle className="w-14 h-14 text-gold mx-auto mb-4" />
             <h3 className="text-2xl font-serif text-charcoal mb-2">
